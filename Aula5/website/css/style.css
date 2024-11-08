@@ -1,0 +1,54 @@
+/* meu primeiro website com estilo*/
+
+#cabecalho{
+    background-color: orange;
+    font-size: large;
+}
+
+#conteudo{
+    background-color: aqua;
+    font-size: medium;
+    color: red;
+}
+
+#rodape{
+    background-color: aliceblue;
+    color: brown;
+    font-size: small;
+}
+
+p .destaque{
+    background-color: blue;
+}
+
+.destaque{
+    background-color: white;
+    border: 2px;
+    border-style: double;
+}
+
+div#cabecalho h1{
+    color: red;
+
+}
+/*#conteudo ul li a {
+
+}*/
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}
+a:focus{
+    color: red;
+}
+a:active{
+    color: black;
+}
