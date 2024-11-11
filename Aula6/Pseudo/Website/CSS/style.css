@@ -1,0 +1,24 @@
+p::after{
+    background-color: aquamarine;
+    color:brown;
+}
+
+p::before{
+    background-color: darkgreen;
+    color:blanchedalmond;
+}
+
+p::first-letter{
+    background-color: blue;
+    color:cornsilk;
+}
+
+p::first-line{
+    background-color: blue;
+    color:bisque;
+}
+
+p::selection{
+    background-color: blue;
+    color:aliceblue;
+}

@@ -1,0 +1,39 @@
+div.margem {
+    background: #900;
+    color:#fff;
+    margin: 5px 10px 15px 20px;
+}
+
+.margem2 {
+    padding:15px;
+    background: #900;
+    color: #fff
+}
+
+.borda1{
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000;
+}
+
+.borda2{
+    border-width: 2px 5px 3px 6px;
+    border-style: dashed dotted;
+    border-color: #000 #090 #900 #009;
+    padding: 20px;
+}
+
+.bordathin {
+    border: thin solid blue;
+    margin-bottom: 20px;
+}
+
+.bordamedium {
+    border: medium solid blue;
+    margin-bottom: 20px;
+}
+
+.bordathick {
+    border: thick solid blue;
+    margin-bottom: 20px;
+}
