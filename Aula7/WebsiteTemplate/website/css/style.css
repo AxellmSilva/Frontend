@@ -1,0 +1,8 @@
+table, th, td{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: gold;
+}
+h1{
+    text-align: center;
+}
