@@ -1,0 +1,14 @@
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #666;
+    display: block;
+}   /*Como todos os campos estão agrupados dentro destes elementos estilos com margens e de forma uniforme*/
+
+fieldset.group .camp{
+    float: left;
+    margin-right:1em;
+}    /* flutuamos os campos lado a lado cidades e Estado*/
