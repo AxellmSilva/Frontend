@@ -1,0 +1,44 @@
+#pagina-principal{
+    background-color: azure;
+    font-family: arial, Verdana;
+    font-size: 40px;
+    padding: 10px;
+    margin:auto;
+    text-align:center;
+}
+
+#header{
+    background-color: azure;
+    font-family: arial, Verdana;
+    font-size: 40px;
+    padding: 10px;
+    margin:auto;
+    text-align:center;
+}
+
+a:hover{
+    color: #0f599f;
+}
+
+h2{
+    color: rgb(17, 16, 16)
+}
+
+#primeiro-ul{
+    list-style: none;
+}
+
+#ativo1{
+    background-color: darkgreen;
+}
+
+#ativo2{
+    background-color: rgb(0, 110, 0);
+}
+#ativo3{
+    background-color: rgb(1, 134, 1);
+}
+
+#ativo4{
+    background-color: rgb(3, 177, 3);
+}
