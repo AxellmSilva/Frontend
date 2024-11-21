@@ -1,9 +1,23 @@
+/*  headers*/
+
+.header-principal {
+
+}
+
+.header-secundario {
+
+}
+
+#header-especifico {
+
+}
+
 #pagina-principal{
     background-color: azure;
     font-family: arial, Verdana;
     font-size: 40px;
     padding: 10px;
-    margin:auto;
+    /* margin:auto; */
     text-align:center;
 }
 
@@ -26,19 +40,75 @@ h2{
 
 #primeiro-ul{
     list-style: none;
+    padding: 10px;
 }
 
 #ativo1{
     background-color: darkgreen;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 #ativo2{
     background-color: rgb(0, 110, 0);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
 }
 #ativo3{
     background-color: rgb(1, 134, 1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 #ativo4{
     background-color: rgb(3, 177, 3);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+ul.navbar{
+    top:0;
+    background-color: darkolivegreen;
+    margin: 0;
+    list-style-type: none;
+    height: 100%;
+    padding:5px;
+    text-align: center;
+}
+
+ul.navbar li a{
+    font-size:25px;
+    color: rgb(11, 11, 11);
+    float:none;
+    text-decoration: none;
+}
+   
+ul.navbar li a:hover{
+    color: #0f599f;
+}
+
+#menu-pricipal {
+    display: flex;
+}
+
+#menu-principal li {
+    display: inline;
+}
+
+#menu-principal li a {
+    background-color: aliceblue;
+    display: inline-block
+}
+
+p{
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
 }

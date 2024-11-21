@@ -1,0 +1,19 @@
+.image{
+    box-shadow: 10px 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 25%;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
