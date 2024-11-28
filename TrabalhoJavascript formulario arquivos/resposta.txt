@@ -1,0 +1,1 @@
+A tag form envia os dados para outra página ou se não tiver o link ela atualizará já a div não.
