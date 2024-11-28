@@ -1,0 +1,29 @@
+Respostas
+
+1.git config --global user.name "Seu Nome"
+  git config --global user.email "email@email.com"
+Servem para identificar quem é o autor da commit.
+
+2.O comando git init é usado para iniciar um novo repositório Git vazio em um diretório local.
+ O comando git clone é usado para clonar um repositório remoto existente, criando uma cópia local do repositório, incluindo todo o histórico de commits e branches.
+
+3.git branch desenvolvimento. Cria uma branch.
+Para mudar de branch usa-se Git checkout desenvolvimento ou git switch desenvolvimento.
+
+4.git add texto.txt, coloca o arquivo na staging area. git commit cria um novo commit.
+
+5.git remote add: Usado para associar um repositório local a um remoto. Use quando for a primeira vez configurando o repositório remoto.
+git push: Envia as alterações locais para o repositório remoto. Use quando quiser compartilhar seu trabalho ou fazer backup.
+git pull: Baixa e mescla as mudanças do repositório remoto para o seu repositório local. Use para manter sua branch local atualizada com o que foi alterado no repositório remoto.
+git fetch: Baixa as alterações do repositório remoto, mas sem mesclar. Use quando quiser revisar as mudanças antes de aplicá-las ao seu repositório local.
+
+6.Um conflito de merge ocorre no Git quando você tenta mesclar duas branches, e o Git não consegue automaticamente decidir qual versão de uma parte do código deve ser mantida.
+Para resolver você precisa abrir os arquivos e resolver manualmente.Baixa
+
+7.Precisa acessar o site do github, criar um repositório, conectar o repositório local ao remoto git remote add origin github.com/usuario/nome-do-repo.git, Adicionar os arquivos a staging area git add, fazer o commit das alterações git commit -m "commit", enviar o repositório local para o github git push -u origin main.
+
+8.git log.
+
+9.Um fork é uma cópia independente de um repositório que você cria em sua própria conta. Isso permite que você faça modificações no código sem afetar o repositório original. Forks são amplamente usados em projetos colaborativos, especialmente em situações em que você não tem permissão direta para alterar o repositório original, mas deseja contribuir com melhorias ou correções.
+
+10.O comando git revert é usado para criar um novo commit que desfaz as mudanças feitas por um commit anterior. Em vez de remover o commit da história, como no git reset, o git revert cria um novo commit que "inverte" as mudanças feitas pelo commit especificado.
