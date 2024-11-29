@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h1 id="h1"></h1>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p></p>
+
+
+    <br>
+    <hr><br>
+
+    <div>
+        <label for="nome">nome: </label>
+        <input type="text" name="nome" id="nome">
+        <button id="addButton">Insere</button>
+    </div>
+    <br>
+    <hr>
+
+    <ul id="listaDeCompras">
+
+    </ul>
+
+    <script>
+        document.getElementById("h1").innerHTML = "Bem-vindo ao meu site!";
+        document.getElementById("p2").innerHTML = "texto qualquer";
+        document.getElementById("p2").style.backgroundColor = "yellow";
+        document.getElementById("p2").style.color = "blue";
+
+        let lista = document.querySelector("#listaDeCompras")
+
+        console.log(lista)
+
+
+
+        // lista
+
+        // for (let index = 1; index <= 5; index++) {
+        //     let li = document.createElement('li');
+        //     console.log(li)
+        //     li.innerHTML = "Item " + index;
+        //     lista.appendChild(li);
+        // }
+
+
+
+        // let array = ['banana', 'maçã', 'pera', 'amora', 'laranja'];
+
+        // for (let index = 1; index <= 5; index++) {
+        //     let li = document.createElement('li');
+        //     console.log(li)
+        //     li.innerHTML = array[index - 1];
+        //     lista.appendChild(li);
+        // }
+
+
+        let inputNome = document.getElementById("nome");
+
+        console.log(inputNome);
+
+
+        function adicionaItem(input, lista) {
+            const itemText = input.value.trim();
+            if (itemText === '') {
+                alert('Por favor, digite algo!');
+                return;
+            }
+
+            console.log(itemText);
+
+
+            // Criar o elemento <li> e botão
+            const li = document.createElement('li');
+            li.textContent = itemText;
+
+            const removeButton = document.createElement('button');
+
+            console.log(removeButton);
+
+            removeButton.textContent = 'Remover';
+            removeButton.classList.add('remove-button');
+
+            // Adicionar o botão ao <li>
+            li.appendChild(removeButton);
+
+            // Adicionar o <li> à lista
+            lista.appendChild(li);
+
+            // Limpar o campo de entrada
+            input.value = '';
+
+
+        }
+
+        function removeItem(event, lista) {
+            if (event.target.tagName === 'BUTTON') {
+                const li = event.target.parentElement;
+                lista.removeChild(li);
+            }
+        }
+
+        let addButton = document.querySelector("#addButton")
+
+        console.log(addButton);
+
+
+
+        addButton.addEventListener('click', () => adicionaItem(inputNome, lista));
+
+        lista.addEventListener('click', (event) => removeItem(event, lista));
+
+
+
+
+
+    </script>
+</body>
+
+</html>

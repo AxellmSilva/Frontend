@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function displayNome(){
+            return document.getElementById ('display').innerHTML = "Axel Silva"
+        }
+        function mudarNome(){
+            return document.getElementById("hello").innerHTML = "Hello JavaScript"
+        }
+        function mudarFonteSize(){
+            return document.getElementById("Ola").style.fontSize = "35px"
+        }
+        function esconder(){
+            return document.getElementById("hide").style.display="none"
+        }
+    </script>
+</head>
+<body>
+    <button onclick="displayNome()">Meu nome é:</button>
+    <p id="display"></p>
+    </br>
+    <button onclick="mudarNome()">Clique para mudar o nome</button>
+    <p id="hello">JavaScript pode mudar o conteúdo HTML</p>
+    </br>
+    <button onclick="mudarFonteSize()">Clique para mudar o tamanho da fonte</button>
+    <p id="Ola">JavaScript pode mudar o conteúdo HTML</p>
+    </br>
+    <div onmouseover="esconder()">TEST</div>
+    <p id="hide">Posso sumir!</p>    
+</body>
+</html>

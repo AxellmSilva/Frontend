@@ -1,0 +1,14 @@
+1-firstChild:
+Retorna o primeiro nó filho(um elemento node, um texto node ou um comentário node.)
+
+2-lastChild:
+Retorna o último nó filho(um elemento node, um texto node ou um comentário node.)
+
+3-childNodes:
+Retorna os nós filhos.
+
+4-nextSibling:
+5-previousSibling
+6-parentNode
+7-firstElementChild
+8-lastElementChild
