@@ -1,0 +1,17 @@
+/* O body envolver tudo o que aparece visualmente na página (exceto o titulo e o favicom) */
+body{
+    background-color: #000000; /*Altera a cor de fundo*/
+    color: white; /*Altera a cor da letra*/
+}
+
+a{
+    color: white;/*Altera a cor de letra*/
+    text-decoration: none;/*Retira o sublinhado do link*/
+}
+
+/* os ":" indica que o estilo só vai ser aplicado em determinada condiçãao.
+Por exemplo, nesse caso, a cor de fonte azul claro só vai ser aplicada nos
+links em que já cliquei (visited)*/
+a:visited{
+    color: aqua;
+}
