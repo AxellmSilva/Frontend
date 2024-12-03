@@ -1,0 +1,28 @@
+#conteiner-pai{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(196, 196, 196);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;/*controla como  eles ficarão dispostos, espaçamento */
+    flex-direction: column-reverse; /*controla a direção do eixo principal, ou seja, a direção na qual os filhos do container pai serão dispostos*/
+    align-items: end;
+    height: 300px;
+}
+
+.conteiner-filho{
+    padding: 20px;
+    margin: 0px;
+}
+
+#filho1{
+    background-color: cornflowerblue;
+}
+
+#filho2{
+    background-color: darkgoldenrod;
+}
+
+#filho3{
+    background-color: rgb(136, 5, 31);
+}

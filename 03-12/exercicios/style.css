@@ -1,0 +1,23 @@
+h1{
+    color: chartreuse;
+    text-align: center;
+}
+
+p{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.red{
+    margin: 2px;
+    background-color: red;
+}
+
+#green{
+    margin: 2px;
+    background-color: green;
+}
