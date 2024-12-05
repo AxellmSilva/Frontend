@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  rgb(247, 164, 10);
+    font-size: 80px;
+}
+
+button{
+    background-color: rgb(247, 164, 10);
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+
+}
+
+button:hover{
+    background-color: orange;
+}
